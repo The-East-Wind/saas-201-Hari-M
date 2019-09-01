@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" name="viewport" content="width=device-width,initial-scale=0.1">
+        <title>
+            View Student Details
+        </title>
+        <style>
+            body{
+                background-image: url(background.jpg)
+            }
+            #complete{
+                margin-left: auto;
+                margin-right: auto;
+                width: 40%;
+            }
+            #rollno{
+                width:40%;
+                position: absolute;
+                padding: 8px 8px;
+                border-radius: 4px;
+                border-color: grey;
+                box-sizing: border-box;
+            }
+            .buttons
+            {
+                text-align: right;
+                position: relative;
+            }
+            #request,#back{
+                padding: 8px 5px;
+                border-radius: 4px;
+                width:18%;
+                font-size: 14px;
+            }
+            #request{
+                background-color: rgb(81, 172, 81);
+                color: white;
+            }
+            #back{
+                background-color: white;
+            }
+            label{
+                text-align: left;
+            }
+            h3{
+                font-family: Arial, Helvetica, sans-serif;
+                text-align: center;
+                margin-bottom: 5%;
+            }
+        </style>
+    </head>
+    <body>
+        <h3>FETCH STUDENT DETAILS</h3>
+        <div id="complete">
+            <form action="index.html" method="POST" accept-charset="utf-8">
+                <label for="rollno">Roll Number:</label><br><br>
+                <input type="text" id="rollno" /><br><br><br>
+                <div class="buttons">
+                    <a href="view_details.html"><button id="back" type="button">Go Back</button></a>
+                    <input type="submit" id="request" value="Request" />
+                </div>
+            </form>
+        </div>
+    </body>
+</html>
