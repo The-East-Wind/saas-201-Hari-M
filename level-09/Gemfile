@@ -17,7 +17,7 @@ end
 #Bootstrap
 gem 'bootstrap'
 # Use Puma as the app server
-gem 'puma', '~> 3.11'
+gem 'puma', '~> 3.12'
 #Devise for authentication and session management
 gem 'devise'
 # Use SCSS for stylesheets
